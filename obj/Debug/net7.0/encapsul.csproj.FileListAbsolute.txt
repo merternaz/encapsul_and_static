@@ -1,0 +1,15 @@
+C:\Users\MONSTER\GitProject\encapsul\bin\Debug\net7.0\encapsul.exe
+C:\Users\MONSTER\GitProject\encapsul\bin\Debug\net7.0\encapsul.deps.json
+C:\Users\MONSTER\GitProject\encapsul\bin\Debug\net7.0\encapsul.runtimeconfig.json
+C:\Users\MONSTER\GitProject\encapsul\bin\Debug\net7.0\encapsul.dll
+C:\Users\MONSTER\GitProject\encapsul\bin\Debug\net7.0\encapsul.pdb
+C:\Users\MONSTER\GitProject\encapsul\obj\Debug\net7.0\encapsul.csproj.AssemblyReference.cache
+C:\Users\MONSTER\GitProject\encapsul\obj\Debug\net7.0\encapsul.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MONSTER\GitProject\encapsul\obj\Debug\net7.0\encapsul.AssemblyInfoInputs.cache
+C:\Users\MONSTER\GitProject\encapsul\obj\Debug\net7.0\encapsul.AssemblyInfo.cs
+C:\Users\MONSTER\GitProject\encapsul\obj\Debug\net7.0\encapsul.csproj.CoreCompileInputs.cache
+C:\Users\MONSTER\GitProject\encapsul\obj\Debug\net7.0\encapsul.dll
+C:\Users\MONSTER\GitProject\encapsul\obj\Debug\net7.0\refint\encapsul.dll
+C:\Users\MONSTER\GitProject\encapsul\obj\Debug\net7.0\encapsul.pdb
+C:\Users\MONSTER\GitProject\encapsul\obj\Debug\net7.0\encapsul.genruntimeconfig.cache
+C:\Users\MONSTER\GitProject\encapsul\obj\Debug\net7.0\ref\encapsul.dll
