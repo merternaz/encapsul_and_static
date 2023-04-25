@@ -9,6 +9,7 @@ namespace encapsulation
         static void Main(string[] args)
         {
             Araba araba1=new Araba("BMW","X1",2014,150000,true,true,Renkler.Siyah);
+            Araba araba2=new Araba("BMW","X3",2017,350000,false,false,Renkler.Siyah);
             araba1.Ozellikler();
             araba1.FiyatUygula();
             araba1.Ozellikler();
@@ -17,6 +18,8 @@ namespace encapsulation
             araba1.SunroofGuncelle(false);
             //araba1.FiyatUygula();
             araba1.Ozellikler();
+            araba2.Ozellikler();
+            Console.WriteLine("Arabalar adedi:"+Araba.ArabaSayısı);// static eriişimi
         }
     }
     public enum Renkler{
@@ -32,6 +35,7 @@ namespace encapsulation
         private bool Sunroof;
         private Renkler Renk;
 
+        public static int ArabaSayısı;// static eriişimi
         public string marka { get => Marka; set => Marka = value; }
         public string model { get => Model; set => Model = value; }
         public int yas { get => Yas; set => Yas = value; }
@@ -40,7 +44,8 @@ namespace encapsulation
 
         public bool sunroof { get => Sunroof; set => Sunroof = value; }
         public Renkler Renk1 { get => Renk; set => Renk = value; }
-
+        
+       
         public Araba(string name,string mod,int year,float price,bool ac,bool roof,Renkler colour){
             this.AC=ac;
             this.Fiyat=price;
@@ -50,6 +55,8 @@ namespace encapsulation
             this.Fiyat=price;
             this.Sunroof=roof;
             this.Renk=colour;
+            ArabaSayısı++;
+
         }
 
         public void Ozellikler(){
@@ -57,6 +64,7 @@ namespace encapsulation
             Console.WriteLine("Model:"+this.Model);
             Console.WriteLine("Yıl:"+this.Yas);
             Console.WriteLine("Fiyat:"+this.Fiyat);
+            Console.WriteLine("Araba Sayısı:"+ArabaSayısı);
         }
 
         public void KlimaGuncelle(bool clima){
